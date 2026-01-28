@@ -5,4 +5,4 @@
 **Class:** XII  
 **Task:** 1  
 
-This folder contains a LaTeX-formatted MCQ question paper for CBSE Class 12 Mathematics, including proper structure and institute logo.
+This repository contains a LaTeX-formatted MCQ question paper for CBSE Class 12 Mathematics, structured as per academic requirements.
