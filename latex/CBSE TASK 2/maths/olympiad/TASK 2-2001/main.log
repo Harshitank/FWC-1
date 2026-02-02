@@ -1,0 +1,310 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Termux) (preloaded format=pdflatex 2026.1.21)  2 FEB 2026 13:09
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**main.tex
+(./main.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-10>
+
+(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/base/a
+rticle.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+
+(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/base/s
+ize12.clo
+File: size12.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count275
+\c@section=\count276
+\c@subsection=\count277
+\c@subsubsection=\count278
+\c@paragraph=\count279
+\c@subparagraph=\count280
+\c@figure=\count281
+\c@table=\count282
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen148
+)
+(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/amsmat
+h/amsmath.sty
+Package: amsmath 2025/07/09 v2.17z AMS math features
+\@mathmargin=\skip51
+
+For additional information on amsmath, use the `?' option.
+
+(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/amsmat
+h/amstext.sty
+Package: amstext 2024/11/17 v2.01 AMS text
+
+(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/amsmat
+h/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks17
+\ex@=\dimen149
+))
+(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/amsmat
+h/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen150
+)
+(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/amsmat
+h/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count283
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count284
+\leftroot@=\count285
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count286
+\DOTSCASE@=\count287
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box53
+\strutbox@=\box54
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen151
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count288
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count289
+\dotsspace@=\muskip17
+\c@parentequation=\count290
+\dspbrk@lvl=\count291
+\tag@help=\toks18
+\row@=\count292
+\column@=\count293
+\maxfields@=\count294
+\andhelp@=\toks19
+\eqnshift@=\dimen152
+\alignsep@=\dimen153
+\tagshift@=\dimen154
+\tagwidth@=\dimen155
+\totwidth@=\dimen156
+\lineht@=\dimen157
+\@envbody=\toks20
+\multlinegap=\skip52
+\multlinetaggap=\skip53
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2950.
+LaTeX Info: Redefining \] on input line 2951.
+)
+(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/amsfon
+ts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/amsfon
+ts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/graphi
+cs/graphicx.sty
+Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/graphi
+cs/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks22
+)
+(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/graphi
+cs/graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+
+(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/graphi
+cs/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/graphi
+cs-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+
+(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/graphi
+cs-def/pdftex.def
+File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen158
+\Gin@req@width=\dimen159
+)
+(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/hyphen
+at/hyphenat.sty
+Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
+\langwohyphens=\language90
+LaTeX Info: Redefining \_ on input line 43.
+)
+(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/l3back
+end/l3backend-pdftex.def
+File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count295
+)
+No file main.aux.
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+
+(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/context/base
+/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count296
+\scratchdimen=\dimen160
+\scratchbox=\box55
+\nofMPsegments=\count297
+\nofMParguments=\count298
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count299
+\MPscratchDim=\dimen161
+\MPnumerator=\count300
+\makeMPintoPDFobject=\count301
+\everyMPtoPDFconversion=\toks24
+)
+(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/epstop
+df-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+
+(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/generic/infw
+arerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/grfext
+/grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+
+(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/generic/kvde
+finekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+))
+(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/kvopti
+ons/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+
+(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/generic/ltxc
+mds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/kvsetk
+eys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+))
+(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/generic/pdft
+excmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/generic/ifte
+x/iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+
+(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/latexc
+onfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+<iiitb_logo.png, id=1, 920.43875pt x 450.68375pt>
+File: iiitb_logo.png Graphic file (type png)
+<use iiitb_logo.png>
+Package pdftex.def Info: iiitb_logo.png  used on input line 12.
+(pdftex.def)             Requested size: 128.0374pt x 62.68954pt.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 13.
+
+
+(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/amsfon
+ts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 13.
+
+
+(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/amsfon
+ts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Overfull \hbox (10.97377pt too wide) in paragraph at lines 50--53
+\OT1/cmr/m/n/12 in-te-gers. For each of the $\OML/cmm/m/it/12 n\OT1/cmr/m/n/12 
+!$ per-mu-ta-tions $\OML/cmm/m/it/12 a \OT1/cmr/m/n/12 = (\OML/cmm/m/it/12 a[];
+ a[]; [] ; a[]\OT1/cmr/m/n/12 )$ of $1\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 2\OML/
+cmm/m/it/12 ; [] ; n$\OT1/cmr/m/n/12 ,
+ []
+
+[1
+
+{/data/data/com.termux/files/usr/share/texlive/2025/texmf-var/fonts/map/pdftex/
+updmap/pdftex.map}{/data/data/com.termux/files/usr/share/texlive/2025/texmf-dis
+t/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./iiitb_logo.png>] [2]
+(./main.aux)
+ ***********
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-10>
+ ***********
+ ) 
+Here is how much of TeX's memory you used:
+ 3180 strings out of 467532
+ 50536 string characters out of 5405402
+ 452709 words of memory out of 5000000
+ 32058 multiletter control sequences out of 15000+600000
+ 636848 words of font info for 76 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 59i,6n,67p,221b,206s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmex10.pfb></data/data/com.termux/files/usr/share/texlive/2025
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></data/data/com.termux/fi
+les/usr/share/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb>
+</data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmr12.pfb></data/data/com.termux/files/usr/share/texlive/2025/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></data/data/com.termux/files/
+usr/share/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></dat
+a/data/com.termux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr8.pfb></data/data/com.termux/files/usr/share/texlive/2025/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmsy10.pfb></data/data/com.termux/files/usr/s
+hare/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></data/da
+ta/com.termux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/public/amsfon
+ts/symbols/msam10.pfb></data/data/com.termux/files/usr/share/texlive/2025/texmf
+-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on main.pdf (2 pages, 197349 bytes).
+PDF statistics:
+ 68 PDF objects out of 1000 (max. 8388607)
+ 40 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+
