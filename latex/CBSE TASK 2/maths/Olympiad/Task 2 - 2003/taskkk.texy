@@ -1,0 +1,21 @@
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Problem 1
+
+\[
+a^2 + b^2 = c^2
+\]
+
+\newpage
+
+Problem 2
+
+\[
+x + y = z
+\]
+
+\end{document}
+

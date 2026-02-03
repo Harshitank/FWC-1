@@ -1,0 +1,322 @@
+\documentclass[12pt,fleqn]{article}
+
+\usepackage{amsmath}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage[none]{hyphenat}
+\usepackage{enumitem}
+
+\setlength{\parindent}{0pt}
+\setlength{\mathindent}{0pt}
+
+\definecolor{mycyan}{RGB}{0,153,204}
+
+\setlist[enumerate]{label=\textcolor{mycyan}{\arabic*.}, leftmargin=1.2cm}
+
+
+\begin{document}
+
+
+%---------------- HEADER ----------------
+\begin{center}
+\includegraphics[width=4cm]{iiitb_logo.png}\\[4pt]
+\textbf{Harshita N Kumar}\\
+ID: COMETFWC052\\
+CBSE Class XII
+\end{center}
+
+\vspace{8pt}
+
+
+\begin{center}
+\fcolorbox{mycyan}{mycyan!20}{
+\parbox{0.9\textwidth}{\centering \textbf{EXERCISE 4.6}}
+}
+\end{center}
+
+
+Examine the consistency of the system of equations in Exercises 1 to 6.
+\begin{enumerate}
+\item
+$x + 2y = 2$\\
+$2x + 3y = 3$
+\item
+$2x - y = 5$\\
+$x + y = 4$
+\item
+$x + 3y = 5$\\
+$2x + 6y = 8$
+\item
+$x + y + z = 1$\\
+$2x + 3y + 2z = 2$\\
+$ax + ay + 2az = 4$
+\item
+$3x - y - 2z = 2$\\
+$2y - z = -1$\\
+$3x - 5y = 3$
+\item
+$5x - y + 4z = 5$\\
+$2x + 3y + 5z = 2$\\
+$5x - 2y + 6z = -1$
+\end{enumerate}
+Solve system of linear equations using matrix method in Exercises 7 to 14.
+\begin{enumerate}
+\setcounter{enumi}{6}
+\item
+$5x + 2y = 4$\\
+$7x + 3y = 5$
+\item
+$2x - y = -2$\\
+$3x + 4y = 3$
+\item
+$4x - 3y = 3$\\
+$3x - 5y = 7$
+\item
+$5x + 2y = 3$\\
+$3x + 2y = 5$
+\item
+$2x + y + z = 1$\\
+$x - 2y - z = \dfrac{3}{2}$\\
+$3y - 5z = 9$
+\item
+$x - y + z = 4$\\
+$2x + y - 3z = 0$\\
+$x + y + z = 2$
+\item
+$2x + 3y + 3z = 5$\\
+$x - 2y + z = -4$\\
+$3x - y - 2z = 3$
+\item
+$x - y + 2z = 7$\\
+$3x + 4y - 5z = -5$\\
+$2x - y + 3z = 12$
+\end{enumerate}
+\textcolor{cyan}{15.} If
+$
+A=
+\begin{pmatrix}
+2 & -3 & 5\\
+3 & 2 & -4\\
+1 & 1 & -2
+\end{pmatrix}
+$,
+find $A^{-1}$. Using $A^{-1}$ solve
+\begin{align*}
+2x - 3y + 5z &= 11\\
+3x + 2y - 4z &= -5\\
+x + y - 2z &= -3
+\end{align*}
+\par\vspace{6pt}   % <<< THIS IS THE KEY LINE
+\noindent\textcolor{cyan}{16.}
+The cost of $4$ kg onion, $3$ kg wheat and $2$ kg rice is Rs.\ $60$.\\
+The cost of $2$ kg onion, $4$ kg wheat and $6$ kg rice is Rs.\ $90$.\\
+The cost of $6$ kg onion, $2$ kg wheat and $3$ kg rice is Rs.\ $70$.\\
+Find the cost of each item per kg by matrix method.
+
+
+
+
+\newpage
+\begin{center}
+\fcolorbox{cyan}{cyan!20}{
+\parbox{0.9\textwidth}{
+
+\begin{center}
+\textbf{\large Summary}
+\end{center}
+
+\vspace{0.3cm}
+
+\begin{itemize}
+
+\item Determinant of a matrix $A=[a_{11}]_{1\times1}$ is given by  
+$|a_{11}| = a_{11}$.
+
+\item Determinant of a matrix  
+$A=
+\begin{pmatrix}
+a_{11} & a_{12}\\
+a_{21} & a_{22}
+\end{pmatrix}$  
+is given by  
+$|A|=
+\begin{vmatrix}
+a_{11} & a_{12}\\
+a_{21} & a_{22}
+\end{vmatrix}
+= a_{11}a_{22}-a_{12}a_{21}$.
+
+\item Determinant of a matrix  
+$A=
+\begin{pmatrix}
+a_1 & b_1 & c_1\\
+a_2 & b_2 & c_2\\
+a_3 & b_3 & c_3
+\end{pmatrix}$  
+is given by (expanding along $R_1$)  
+
+$|A|
+= a_1
+\begin{vmatrix}
+b_2 & c_2\\
+b_3 & c_3
+\end{vmatrix}
+- b_1
+\begin{vmatrix}
+a_2 & c_2\\
+a_3 & c_3
+\end{vmatrix}
++ c_1
+\begin{vmatrix}
+a_2 & b_2\\
+a_3 & b_3
+\end{vmatrix}$.
+
+\item For any square matrix $A$, the determinant $|A|$ satisfies the following properties.
+
+\item $|A'| = |A|$, where $A'$ is the transpose of $A$.
+
+\item If we interchange any two rows (or columns), then the sign of determinant changes.
+
+\item If any two rows or any two columns are identical or proportional, then the value of determinant is zero.
+
+\item If we multiply each element of a row or a column of a determinant by a constant $k$, then the value of determinant is multiplied by $k$.
+
+\item Multiplying a determinant by $k$ means multiplying elements of only one row (or one column) by $k$.
+
+\item If $A=[a_{ij}]_{3\times3}$, then  
+$|kA| = k^3|A|$.
+
+\item If elements of a row or a column of a determinant can be expressed as sum of two or more elements, then the determinant can be expressed as sum of two or more determinants.
+
+\item If to each element of a row or a column of a determinant the equimultiples of corresponding elements of other rows or columns are added, then the value of determinant remains same.
+
+\end{itemize}
+
+}
+}
+
+
+\end{center}
+
+\newpage
+\begin{center}
+\fcolorbox{cyan}{cyan!20}{
+\parbox{0.9\textwidth}{
+
+\vspace{0.2cm}
+
+\begin{itemize}
+
+\item Area of a triangle with vertices $(x_1,y_1)$, $(x_2,y_2)$ and $(x_3,y_3)$ is given by  
+$\Delta=\dfrac{1}{2}
+\begin{vmatrix}
+x_1 & y_1 & 1\\
+x_2 & y_2 & 1\\
+x_3 & y_3 & 1
+\end{vmatrix}$.
+
+\item Minor of an element $a_{ij}$ of the determinant of matrix $A$ is the determinant obtained by deleting $i^{th}$ row and $j^{th}$ column and is denoted by $M_{ij}$.
+
+\item Cofactor of $a_{ij}$ is given by  
+$A_{ij}=(-1)^{i+j}M_{ij}$.
+
+\item Value of determinant of a matrix $A$ is obtained by sum of product of elements of a row (or a column) with corresponding cofactors.  
+For example,  
+$|A| = a_{11}A_{11} + a_{12}A_{12} + a_{13}A_{13}$.
+
+\item If elements of one row (or column) are multiplied with cofactors of elements of any other row (or column), then their sum is zero.  
+For example,  
+$a_{11}A_{21} + a_{12}A_{22} + a_{13}A_{23} = 0$.
+
+\item If  
+$A=
+\begin{pmatrix}
+a_{11} & a_{12} & a_{13}\\
+a_{21} & a_{22} & a_{23}\\
+a_{31} & a_{32} & a_{33}
+\end{pmatrix}$,  
+then  
+$adj\,A=
+\begin{pmatrix}
+A_{11} & A_{21} & A_{31}\\
+A_{12} & A_{22} & A_{32}\\
+A_{13} & A_{23} & A_{33}
+\end{pmatrix}$,  
+where $A_{ij}$ is the cofactor of $a_{ij}$.
+
+\item $A(adj\,A) = (adj\,A)A = |A|I$, where $A$ is a square matrix of order $n$.
+
+\item A square matrix $A$ is said to be singular or non-singular according as $|A| = 0$ or $|A| \neq 0$.
+
+\item If $AB = BA = I$, where $B$ is a square matrix, then $B$ is called inverse of $A$.  
+Also $A^{-1} = B$ or $B^{-1} = A$ and hence $(A^{-1})^{-1} = A$.
+
+\item A square matrix $A$ has inverse if and only if $A$ is non-singular.
+
+\item $A^{-1} = \dfrac{1}{|A|}(adj\,A)$.
+
+\item If  
+$a_1x + b_1y + c_1z = d_1$,  
+$a_2x + b_2y + c_2z = d_2$,  
+$a_3x + b_3y + c_3z = d_3$,  
+then these equations can be written as $AX = B$, where  
+
+$A=
+\begin{pmatrix}
+a_1 & b_1 & c_1\\
+a_2 & b_2 & c_2\\
+a_3 & b_3 & c_3
+\end{pmatrix}$,  
+$X=
+\begin{pmatrix}
+x\\
+y\\
+z
+\end{pmatrix}$ and  
+$B=
+\begin{pmatrix}
+d_1\\
+d_2\\
+d_3
+\end{pmatrix}$.
+
+\end{itemize}
+
+\vspace{0.2cm}
+
+}
+}
+\end{center}
+
+\newpage
+\begin{center}
+\fcolorbox{cyan}{cyan!20}{
+\parbox{0.9\textwidth}{
+
+\vspace{0.2cm}
+
+\begin{itemize}
+
+\item Unique solution of equation $AX = B$ is given by  
+$X = A^{-1}B$, where $|A| \neq 0$.
+
+\item A system of equation is consistent or inconsistent according as its solution exists or not.
+
+\item For a square matrix $A$ in matrix equation $AX = B$:
+
+\begin{itemize}
+\item[(i)] If $|A| \neq 0$, there exists a unique solution.
+\item[(ii)] If $|A| = 0$ and $(adj\,A)B \neq 0$, then there exists no solution.
+\item[(iii)] If $|A| = 0$ and $(adj\,A)B = 0$, then the system may or may not be consistent.
+\end{itemize}
+
+\end{itemize}
+
+\vspace{0.2cm}
+
+}
+}
+\end{center}
+
+\end{document}
