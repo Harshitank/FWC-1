@@ -39,9 +39,3 @@ https://github.com/gadepall/fwc-1/blob/main/ide/fsm/gvv_kmap_fsm.pdf
 svn co https://github.com/gadepall/fwc-1/trunk/ide/fsm
 
 
-#7.  Driving the LCD display using the Arduino
-
-https://github.com/gadepall/fwc-1/blob/main/ide/lcd/gvv_lcd.pdf
-
-svn co https://github.com/gadepall/fwc-1/trunk/ide/lcd
-
