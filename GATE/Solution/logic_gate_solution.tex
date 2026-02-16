@@ -1,0 +1,115 @@
+\documentclass[12pt]{article}
+
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{geometry}
+\usepackage{amsmath}
+\usepackage{enumitem}
+\geometry{a4paper, margin=1in}
+
+\begin{document}
+
+\begin{center}
+\includegraphics[width=0.3\textwidth]{iiitb_logo.png.jpg}
+\end{center}
+
+\vspace{0.5cm}
+
+\begin{center}
+\textbf{\Large Harshita N Kumar} \\[0.2cm]
+\textbf{ID: COMETFWC052}
+\end{center}
+
+\vspace{1cm}
+
+{\color{blue} \section*{QUESTION}}
+
+The logic gate circuit shown in the adjoining figure realizes which of the following function?
+
+\begin{enumerate}
+\item XOR
+\item XNOR
+\item Half Adder
+\item Full Adder
+\end{enumerate}
+
+\vspace{0.5cm}
+
+\begin{center}
+\includegraphics[width=0.8\textwidth]{IMG_20260216_144417.jpg}
+\end{center}
+
+\vspace{1cm}
+
+{\color{blue} \section*{SOLUTION}}
+
+\textbf{Step 1: Identification of Gates}
+
+From the circuit diagram, all the gates used are NAND gates.  
+A NAND gate performs the Boolean operation:
+
+$A \text{ NAND } B = \overline{A \cdot B}$
+
+Since NAND is a universal gate, any Boolean function can be implemented using only NAND gates.
+
+\bigskip
+
+\textbf{Step 2: First Stage Operation}
+
+If both inputs of a NAND gate are same, it acts as an inverter:
+
+$X \text{ NAND } X = \overline{X}$
+
+$Y \text{ NAND } Y = \overline{Y}$
+
+Thus, we obtain complemented inputs:
+
+$\overline{X}$ and $\overline{Y}$
+
+\bigskip
+
+\textbf{Step 3: Intermediate Stage}
+
+The cross-connected NAND gates generate:
+
+$P = \overline{X \cdot \overline{Y}}$
+
+$Q = \overline{\overline{X} \cdot Y}$
+
+\bigskip
+
+\textbf{Step 4: Final Stage}
+
+The final NAND gate gives:
+
+$Z = \overline{P \cdot Q}$
+
+Substituting values of $P$ and $Q$:
+
+$Z = \overline{ \left( \overline{X \cdot \overline{Y}} \right) \cdot \left( \overline{\overline{X} \cdot Y} \right) }$
+
+Using De Morgan’s Theorem and Boolean simplification:
+
+$Z = X\overline{Y} + \overline{X}Y$
+
+\bigskip
+
+\textbf{Step 5: Final Result}
+
+The expression $Z = X\overline{Y} + \overline{X}Y$ is the standard form of the Exclusive-OR function.
+
+Therefore,
+
+$Z = X \oplus Y$
+
+\bigskip
+
+\textbf{Conclusion:}
+
+The given circuit realizes the XOR function.
+
+\bigskip
+
+\textbf{Correct Answer: (a) XOR}
+
+\end{document}
