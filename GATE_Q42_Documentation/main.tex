@@ -1,0 +1,109 @@
+\documentclass[12pt]{article}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{geometry}
+\geometry{margin=1in}
+
+\begin{document}
+
+%---------------- LOGO ----------------
+\begin{center}
+\includegraphics[width=0.3\textwidth]{images/logo.jpg}
+\end{center}
+
+\begin{center}
+\textbf{\Large Harshita N Kumar} \\
+\textbf{ID: COMETFWC052}
+\end{center}
+
+\vspace{0.5cm}
+
+\begin{center}
+{\color{blue}\Huge GATE Question No. 41}
+\end{center}
+
+\vspace{0.5cm}
+
+%---------------- QUESTION ----------------
+{\color{blue}\Large Question}
+
+\vspace{0.3cm}
+
+For any set of inputs $A$ and $B$, the following circuits give the same output $Q$, except one. Which one is it?
+
+\vspace{0.5cm}
+
+%---------------- GATES IMAGE ----------------
+{\color{blue}\Large Given Circuits}
+
+\vspace{0.3cm}
+
+\begin{center}
+\includegraphics[width=\textwidth]{images/gates.jpg}
+\end{center}
+
+\vspace{0.5cm}
+
+%---------------- ANALYSIS ----------------
+{\color{blue}\Large Question Analysis}
+
+Option (a):
+
+$Q = (A \oplus B)\overline{B}$
+
+Since $A \oplus B = A\overline{B} + \overline{A}B$,
+
+$Q = (A\overline{B} + \overline{A}B)\overline{B}$
+
+$Q = A\overline{B}$
+
+Option (b):
+
+$Q = A\overline{B}$
+
+Option (c):
+
+After simplification, it reduces to:
+
+$Q = A\overline{B}$
+
+Option (d):
+
+$Q = \overline{A} + B$
+
+Thus, option (d) produces a different output.
+
+\vspace{0.5cm}
+
+%---------------- TRUTH TABLE ----------------
+{\color{blue}\Large Truth Table Comparison}
+
+\begin{center}
+\begin{tabular}{|c|c|c|c|}
+\hline
+A & B & $A\overline{B}$ & $\overline{A}+B$ \\
+\hline
+0 & 0 & 0 & 1 \\
+0 & 1 & 0 & 1 \\
+1 & 0 & 1 & 0 \\
+1 & 1 & 0 & 1 \\
+\hline
+\end{tabular}
+\end{center}
+
+\vspace{0.5cm}
+
+%---------------- CONCLUSION ----------------
+{\color{blue}\Large Conclusion}
+
+Options (a), (b), and (c) implement the function:
+
+$Q = A\overline{B}$
+
+Option (d) implements:
+
+$Q = \overline{A} + B$
+
+Since the outputs are not identical for all input combinations, option (d) is the incorrect circuit.
+
+\end{document}
