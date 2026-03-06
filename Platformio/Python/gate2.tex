@@ -1,0 +1,61 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{amsmath}
+
+\begin{document}
+
+\begin{center}
+\Large \textbf{Platformio Question}
+
+\vspace{0.3cm}
+
+Harshita N Kumar \\
+COMETFWC052
+\end{center}
+
+\section*{Question}
+
+For any set of inputs $A$ and $B$, the following circuits give the same output $Q$, except one.
+
+\begin{center}
+\includegraphics[width=8cm]{question.jpg}
+\end{center}
+
+\section*{Solution}
+
+Simplifying the circuits:
+
+$$Q_a = A\overline{B}$$
+
+$$Q_b = A\overline{B}$$
+
+$$Q_c = A\overline{B}$$
+
+$$Q_d = \overline{A} + B$$
+
+Thus circuits (a), (b) and (c) produce the same output.
+
+Circuit (d) produces a different output.
+
+\section*{Truth Table}
+
+\begin{center}
+\begin{tabular}{|c|c|c|c|}
+\hline
+A & B & $A\overline{B}$ & $\overline{A}+B$ \\
+\hline
+0 & 0 & 0 & 1 \\
+0 & 1 & 0 & 1 \\
+1 & 0 & 1 & 0 \\
+1 & 1 & 0 & 1 \\
+\hline
+\end{tabular}
+\end{center}
+
+\section*{Graph Output}
+
+\begin{center}
+\includegraphics[width=10cm]{graph.jpg}
+\end{center}
+
+\end{document}
